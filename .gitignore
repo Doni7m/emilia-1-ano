@@ -1,0 +1,4 @@
+# O convite original (fotos, endereço, telefone) fica só no seu computador.
+# O GitHub recebe apenas o index.html criptografado.
+fonte/
+__pycache__/
