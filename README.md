@@ -15,7 +15,7 @@ emilia-1-ano/
 ├── build.py          ← junta tudo e criptografa
 ├── .gitignore        ← impede a pasta fonte/ de ir para o GitHub
 └── fonte/            ← FICA SÓ NO SEU COMPUTADOR
-    ├── config.js     ← data, hora, local, WhatsApp, tamanhos… (edite aqui)
+    ├── config.js     ← data, hora, local, WhatsApp, IBAN… (edite aqui)
     ├── senha.txt     ← a senha (não vai para o GitHub)
     ├── convite.html  ← o conteúdo do convite
     ├── casca.html    ← o envelope com o campo de senha
@@ -25,7 +25,7 @@ emilia-1-ano/
 
 ## 1. Preencher os dados
 
-Edite **`fonte/config.js`**: `dataHora`, `local`, `confirmarAte`, `whatsapp` (só dígitos com código do país, ex.: `351912345678`), `listaPresentesUrl` (opcional) e `tamanhos`.
+Edite **`fonte/config.js`**: `dataHora`, `local`, `confirmarAte`, `whatsapp` (só dígitos com código do país, ex.: `351912345678`) e, se quiser mostrar, `iban` e `titularConta` da conta poupança.
 
 ## 2. Gerar o index.html
 
